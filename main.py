@@ -29,6 +29,7 @@ class LoanRequest(BaseModel):
     previous_loans: int
     expected_loan_amount: float
 
+    #TODO: Here we can implement AI  model for calcaute the score, but for that we need data to train model for now i have sued the basic formula
 def calcaute_score(data,importance_weights = home_loan_importance_weights):
     score = 0
     score += importance_weights["monthly_income"] * (data.monthly_income / data.expected_loan_amount)
