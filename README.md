@@ -29,6 +29,14 @@ Check API documentation:
 - [http://localhost:8000/redoc](http://localhost:8000/redoc)  
 
 ---
+## Results:
+1. Sample Result:
+![Screenshot (21)](https://github.com/user-attachments/assets/97b0815f-7e9b-4c26-b4fe-e314b1302f0b)
+2. Citizenship,age condition:
+   ![Screenshot (23)](https://github.com/user-attachments/assets/da901b1e-a02f-49cb-aabc-53a23bc1fb4c)
+![Screenshot (22)](https://github.com/user-attachments/assets/9aa97937-a6b1-4e5b-b526-a451030974e5)
+
+
 
 ## Workflow:
 
@@ -105,6 +113,7 @@ Sample input:
 ---
 
 ## Further Improvements:
+✅ Use of ML modelling.  
 ✅ Better employer-based scoring (MNC, SME, Startup).  
 ✅ More complex eligibility logic.  
 ✅ Dynamic adjustment of importance weights based on loan type.  
